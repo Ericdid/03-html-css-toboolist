@@ -23,7 +23,7 @@ main{
     width: 1000px;
     height: 70px;
     background-color: lightblue;
-    margin: auto;
+    margin: 10px auto;
     border-radius: 5px;
 }
 .task{
@@ -47,3 +47,70 @@ main{
     line-height: 35px;
     border-radius: 5px;
 }
+.container{
+    width: 1000px;
+    height: 700px;
+    background-color: lightblue;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+.title{
+    margin-left: 30px;
+}
+.check{
+    color: green;
+    border: 1px solid;
+    font-size: 8px;
+    padding: 3px;
+    border-radius: 50%;
+
+}
+.cross{
+    color: red;
+    border: 1px solid;
+    font-size: 8px;
+    padding: 3px;
+    border-radius: 50%;
+}
+/* utility */
+.sky{
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.purple{
+    width: 100px;
+    height: 35px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.grass{
+    width: 100px;
+    height: 35px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.rich{
+    width: 100px;
+    height: 35px;
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
