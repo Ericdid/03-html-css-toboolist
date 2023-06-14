@@ -20,11 +20,12 @@ main{
     padding: 30px;
 }
 .buttons{
-    width: 1000px;
-    height: 70px;
+    width: 50%;
+    min-height: 70px;
     background-color: lightblue;
     margin: 10px auto;
     border-radius: 5px;
+    cursor: pointer;
 }
 .task{
     display: inline-block;
@@ -32,6 +33,7 @@ main{
     height: 35px;
     background-color: blue;
     color: white;
+    border: 1px solid transparent;
     text-align: center;
     line-height: 35px;
     border-radius: 5px;
@@ -43,13 +45,14 @@ main{
     height: 35px;
     background-color: white;
     color: black;
+    border: 1px solid;
     text-align: center;
     line-height: 35px;
     border-radius: 5px;
 }
 .container{
-    width: 1000px;
-    height: 600px;
+    width: 50%;
+    min-height: 600px;
     background-color: lightblue;
     margin: 5px auto;
     border-radius: 5px;
